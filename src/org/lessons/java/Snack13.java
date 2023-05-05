@@ -7,12 +7,16 @@ public class Snack13 {
 		Integer[] arr1 = { 1, 2, 3, 4, 5 };
 		Integer[] arr2 = { 34, 35, 36, 37, 38 };
 		
-		Integer[] arr3 = new Integer[5];
-		Integer[] arr4 = new Integer[5];
+		Integer[] arr3 = new Integer[arr1.length];
+		Integer[] arr4 = new Integer[arr2.length];
 		
 		
 		for (int i = 0; i < arr1.length; i++) {
 			arr3[i] = arr1[i];
+		}
+		
+		for (int i = 0; i < arr2.length; i++) {
+			
 			arr4[i] = arr2[i];
 		}
 		

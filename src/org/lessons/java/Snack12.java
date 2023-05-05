@@ -7,13 +7,13 @@ public class Snack12 {
 		Integer[] arr1 = { 1, 2, 3, 4, 5 };
 		Integer[] arr2 = { 34, 35, 36, 37, 38 };
 		
-		Integer[] arr3 = new Integer[10];
+		Integer[] arr3 = new Integer[arr1.length + arr2.length];
 		
 		int contatore = 0;
 		
 		for (int i = 0; i < arr3.length; i++) {
 			
-			if(i < 5) {
+			if(i < arr1.length) {
 				arr3[i] = arr1[i];				
 			}else {
 				arr3[i] = arr2[contatore++];
