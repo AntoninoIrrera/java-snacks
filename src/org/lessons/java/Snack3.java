@@ -7,12 +7,12 @@ public class Snack3 {
 		
 		int somma = 0;
 		
-		for (int i = 0; i < numeri.length; i++) {
+		for (int i = 1; i < numeri.length; i+=2) {
 			
-			if(i % 2 != 0) {
+			
 				
-				somma += numeri[i];
-			}
+			somma += numeri[i];
+			
 			
 		}
 		
