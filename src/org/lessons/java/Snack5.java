@@ -18,7 +18,8 @@ public class Snack5 {
 		int sommaDispari = 0;
 		int contatoreDispari = 0;
 		int max = 0;
-		int min = 0;
+//		int min = 0;
+		int min = 100;
 		
 		for (int i = 0; i < userNum; i++) {
 			
@@ -35,11 +36,18 @@ public class Snack5 {
 				sommaDispari += randNumber;
 			}
 			
-			if(max < randNumber) {
+//			if(max < randNumber) {
+//				max = randNumber;
+//				min = randNumber;
+//			}
+//			if(min > randNumber) {
+//				min = randNumber;
+//			}
+			
+			if(randNumber > max) {
 				max = randNumber;
-				min = randNumber;
 			}
-			if(min > randNumber) {
+			if(randNumber < min) {
 				min = randNumber;
 			}
 			
