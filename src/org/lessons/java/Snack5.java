@@ -55,7 +55,13 @@ public class Snack5 {
 		}
 		
 		int media = somma / userNum;
-		int mediaDispari = sommaDispari / contatoreDispari;
+		int mediaDispari = 0;
+		
+		if(contatoreDispari > 0) {
+
+			mediaDispari = sommaDispari / contatoreDispari;
+			
+		}
 				
 		System.out.println("la somma e: " + somma);
 		System.out.println("la somma pari e: " + sommaPari);
