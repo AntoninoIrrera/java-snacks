@@ -9,7 +9,7 @@ public class Snack7 {
 		
 		int randNumber = -1;
 		
-		while(randNumber % 3 != 0 && randNumber % 5 != 0){
+		while(randNumber % 3 != 0 || randNumber % 5 != 0){
 			
 			randNumber = rand.nextInt(0, 101);
 			System.out.println(randNumber);
