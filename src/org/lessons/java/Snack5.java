@@ -19,7 +19,8 @@ public class Snack5 {
 		int contatoreDispari = 0;
 		int max = 0;
 //		int min = 0;
-		int min = 100;
+//		int min = 100;
+		int min = Integer.MAX_VALUE;
 		
 		for (int i = 0; i < userNum; i++) {
 			
