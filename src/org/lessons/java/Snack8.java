@@ -11,6 +11,8 @@ public class Snack8 {
 		Integer[] numeriPari = new Integer[10];
 		Integer[] numeriDispari = new Integer[10];
 		
+		int contatorePari = 0;
+		int contatoreDispari = 0;
 		
 		
 		for (int i = 0; i < 10; i++) {
@@ -21,11 +23,11 @@ public class Snack8 {
 			
 			if(randNumber % 2 == 0) {
 				
-				numeriPari[i] = randNumber;
+				numeriPari[contatorePari++] = randNumber;
 				
 			}else {
 				
-				numeriDispari[i] = randNumber;
+				numeriDispari[contatoreDispari++] = randNumber;
 			}
 			
 		}
